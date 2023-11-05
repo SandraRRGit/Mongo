@@ -1,5 +1,5 @@
 ---
-title: "Theming with bslib and thematic"
+title: "Theming with bslib and thematic nuevaramamongo"
 output: 
   html_document:
     code_folding: show
@@ -49,3 +49,4 @@ lattice::show.settings()
 ```{r}
 plot(pressure, col = thematic::thematic_get_option("accent"))
 ```
+
